@@ -1,2 +1,0 @@
-.topbar{background-color:#00008b;height:70px;position:fixed;top:0;width:100%;z-index:2}.portfolio{background-color:#f08080}.works{background-color:#90ee90}.contact,.testimonials{background-color:#f08080}.app{height:100vh}.app .sections{background-color:#f08080;height:calc(100vh - 70px);position:relative;-ms-scroll-snap-type:y mandatory;scroll-snap-type:y mandatory;scrollbar-width:none;top:70px;width:100%}.app .sections::-webkit-scrollbar{display:none}.app .sections>*{height:calc(100vh - 70px);scroll-snap-align:start;width:100vw}
-/*# sourceMappingURL=main.33e291b4.css.map*/
