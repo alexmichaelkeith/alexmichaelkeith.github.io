@@ -2,8 +2,8 @@ import React from 'react'
 import "./contact.scss"
 export default function contact() {
     return (
-      <div className="contact">
-          dfgsdfg
+      <div className="contact" id="contact">
+          Contact
           </div>
     )
   }
