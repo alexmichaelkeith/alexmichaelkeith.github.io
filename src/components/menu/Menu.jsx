@@ -1,5 +1,6 @@
 import "./menu.scss"
 import React from "react"
+import { NavLink } from "react-router-dom";
 
 export default function Menu({menuOpen, setMenuOpen}) {
   return (
@@ -19,6 +20,11 @@ export default function Menu({menuOpen, setMenuOpen}) {
             </li>
             <li onClick={()=>setMenuOpen(false)}>
                 <a href="#contact">Contact</a>
+            </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/PortfolioPage">
+                  PortfolioPage
+                </NavLink>
             </li>
         </ul>
     </div>
