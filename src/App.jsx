@@ -20,7 +20,7 @@ function App() {
 
         <Routes>
 
-          <Route path='/' element={<MainComponent />} />
+          <Route path='/' element={<MainComponent/>} />
 
         </Routes>
 

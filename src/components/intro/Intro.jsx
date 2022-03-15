@@ -31,7 +31,7 @@ export default function Intro() {
             Fullstack <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#works">
           <img src="assets/down.png" alt="arrow-down" />
         </a>
       </div>

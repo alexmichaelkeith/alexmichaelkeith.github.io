@@ -12,10 +12,12 @@
     align-items: center;
     justify-content: center;
     transition: all 1s ease;
-    
+    overflow: hidden;
 
     &.active{
         right: 0;
+        overflow: hidden;
+
     }
 
     ul{

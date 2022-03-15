@@ -1,41 +1,47 @@
-import React, { useState } from 'react';
-import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+import "./works.scss";
 
-const Works = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
+export default function Works() {
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+  return(
+      <div className="works" id="works">
+        <div className="Slider" style={{ overflow: "hidden"}}>
+          
+          <AwesomeSlider>
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
 
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
+            <div className="emulatorFreighter">
+              
+              <h1>EmulatorFreighter</h1>
 
-  return (
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
-            )}
-          </div>
-        );
-      })}
-    </section>
-  );
-};
 
-export default Works;
+
+            </div>
+
+            <div className="openCuisine">
+
+              <h1>OpenCuisine</h1>
+              <p>Test</p>
+
+            </div>
+
+            <div className="mastermind">
+
+              <h1>Mastermind</h1>
+              <p>Test</p>
+
+            </div>
+
+            <div className="portfolio">
+
+              <h1>Portfolio</h1>
+              <p>Test</p>
+
+            </div>
+            
+          </AwesomeSlider>
+        </div>
+      </div>
+    );
+}
