@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Topbar from "./components/topbar/Topbar";
-import Portfolio from "./components/portfolio/Portfolio"
+import Works from "./components/works/Works"
 import Menu from './components/menu/Menu';
 import "./app.scss"
 import MainComponent from './components/MainComponent';
+import Intro from './components/intro/Intro';
+import Contact from './components/contact/Contact';
+
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
@@ -18,7 +21,6 @@ function App() {
         <Routes>
 
           <Route path='/' element={<MainComponent />} />
-          <Route path='/portfolio' element={<Portfolio />} />
 
         </Routes>
 

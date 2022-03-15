@@ -1,13 +1,14 @@
 import React from 'react'
 import Intro from "./intro/Intro"
-import Portfolio from "./portfolio/Portfolio"
+import Works from "./works/Works"
 import Contact from "./contact/Contact"
+import { SliderData } from '.works/SliderData';
 
 export default function MainComponent() {
   return (
       <div className="sections">
         <Intro/>
-        <Portfolio/>
+        <Works slides={SliderData} />
         <Contact/>
       </div>
   );
