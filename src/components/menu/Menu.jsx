@@ -9,7 +9,21 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <a href="#intro">Home</a>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#works">Works</a>
+                <ul>
+                    <li>
+                        <a href="#portfolio">Emulator Freighter</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">OpenCuisine</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Mastermind</a>
+                    </li>
+                    <li>
+                        <a href="#works">Portfolio</a>
+                    </li>
+                </ul>
             </li>
             <li onClick={()=>setMenuOpen(false)}>
                 <a href="#contact">Contact</a>

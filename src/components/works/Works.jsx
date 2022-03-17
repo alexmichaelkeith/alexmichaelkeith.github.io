@@ -2,14 +2,15 @@ import "./works.scss";
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Freighter from "./Freighter.png";
+import OpenCuisine from "./opencuisine.png";
 export default function Works() {
  
   return (
-      <div className="Works">
-        <h1>Portfolio</h1>
+      <div className="works">
+        <h1>Works</h1>
       <Carousel className="carousel" variant="dark">
 
-      <Carousel.Item className="emulatorFreighter">
+      <Carousel.Item className="item">
       <div className="title">
           <h1>Emulator Freighter</h1>
         </div>
@@ -17,6 +18,8 @@ export default function Works() {
           className="image"
           src={Freighter}
           alt="Emulator Freighter"
+          height="35%"
+          width="35%"
         />
         <div className="description">
           <h2>Section Head</h2>
@@ -26,13 +29,13 @@ export default function Works() {
         </div>
       </Carousel.Item>
 
-      <Carousel.Item className="openCuisine">
+      <Carousel.Item className="item">
       <div className="title">
           <h1>OpenCuisine</h1>
         </div>
         <img
           className="image"
-          src={Freighter}
+          src={OpenCuisine}
           alt="First slide"
         />
         <div className="description">
@@ -43,7 +46,7 @@ export default function Works() {
         </div>
       </Carousel.Item>
 
-      <Carousel.Item className="mastermind">
+      <Carousel.Item className="item">
       <div className="title">
           <h1>Mastermind</h1>
         </div>
@@ -51,6 +54,8 @@ export default function Works() {
           className="image"
           src={Freighter}
           alt="Mastermind"
+          height="35%"
+          width="35%"
         />
         <div className="description">
           <h2>Section Head</h2>
@@ -60,7 +65,7 @@ export default function Works() {
         </div>
       </Carousel.Item>
 
-      <Carousel.Item className="portfolio">
+      <Carousel.Item className="item">
       <div className="title">
           <h1>Portfolio</h1>
         </div>
@@ -68,6 +73,8 @@ export default function Works() {
           className="image"
           src={Freighter}
           alt="Portfolio"
+          height="35%"
+          width="35%"
         />
         <div className="description">
           <h2>Section Head</h2>
