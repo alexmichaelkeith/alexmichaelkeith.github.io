@@ -12,7 +12,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Developer"],
+      strings: ["Fullstack Developer", "Software Development Engineer", "Frontend Designer", "Data Scientist"],
     });
   }, []);
 
@@ -28,7 +28,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Alex Keith</h1>
           <h3>
-            Fullstack <span ref={textRef}></span>
+            Passionate <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#works">

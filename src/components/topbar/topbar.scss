@@ -31,6 +31,13 @@
               align-items: center;
               margin-left: 30px;
 
+              a {
+                color: black;
+              }
+              a:hover {
+                 color: #00F
+              }
+
               .icon{
                   font-size: 18px;
                   margin-right: 5px;
@@ -64,6 +71,13 @@
  &.active{
      background-color: $mainColor;
      color: white;
+
+     a {
+        color: white;
+      }
+      a:hover {
+         color: blue;
+      }
 
      .hamburger{
          span{

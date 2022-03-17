@@ -1,5 +1,5 @@
 import React from 'react'
-import {Person, Mail} from "@material-ui/icons"
+import {Person, Mail, LinkedIn} from "@material-ui/icons"
 import "./topbar.scss"
 
 export default function topbar({menuOpen, setMenuOpen}) {
@@ -15,6 +15,10 @@ export default function topbar({menuOpen, setMenuOpen}) {
             <div className="itemContainer">
               <Mail className="icon"/>
               <span>alex.michael.keith@gmail.com</span>
+            </div>
+            <div className="itemContainer">
+              <LinkedIn className="icon"/>
+              <span><a href="https://www.linkedin.com/in/alexmichaelkeith/">LinkedIn/alexmichaelkeith</a></span>
             </div>
 
         </div>

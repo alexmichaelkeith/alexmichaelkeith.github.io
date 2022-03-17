@@ -7,6 +7,7 @@ import "./app.scss"
 import MainComponent from './components/MainComponent';
 import Intro from './components/intro/Intro';
 import Contact from './components/contact/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Routes>
 
           <Route path='/' element={<MainComponent/>} />
+          <Route path='/p' element={<Works/>} />
 
         </Routes>
 
