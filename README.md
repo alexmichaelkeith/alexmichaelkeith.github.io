@@ -1,4 +1,7 @@
+![Portfolio.svg](https://github.com/alexmichaelkeith/alexmichaelkeith.github.io/blob/main/public/assets/portfolio-icon-white.svg)
+
 # alexmichaelkeith.github.io
+
 
 
 ## Usage
