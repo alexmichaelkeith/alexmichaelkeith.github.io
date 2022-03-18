@@ -3,6 +3,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Freighter from "./Freighter.png";
 import OpenCuisine from "./opencuisine.png";
+import Portfolio from "./portfolio-icon.svg";
 export default function Works() {
  
   return (
@@ -71,10 +72,10 @@ export default function Works() {
         </div>
         <img
           className="image"
-          src={Freighter}
+          src={Portfolio}
           alt="Portfolio"
-          height="35%"
-          width="35%"
+          height="15%"
+          width="15%"
         />
         <div className="description">
           <h2>Section Head</h2>
