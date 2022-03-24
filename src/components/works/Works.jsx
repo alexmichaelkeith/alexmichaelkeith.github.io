@@ -2,13 +2,13 @@ import "./works.scss";
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Freighter from "./Freighter.png";
-import OpenCuisine from "./opencuisine.png";
+import OpenCuisine from "./OpenCuisine.svg";
 import Portfolio from "./portfolio-icon.svg";
 export default function Works() {
  
   return (
       <div className="works">
-        <h1>Works</h1>
+        <h1>Portfolio</h1>
       <Carousel className="carousel" variant="dark">
 
       <Carousel.Item className="item">
