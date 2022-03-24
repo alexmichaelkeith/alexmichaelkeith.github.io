@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="public/assets/Website-logo.svg">
+  <img src="public/assets/Website-logo.svg">
 </p>
 
 
@@ -86,7 +86,7 @@ Answer 2
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to me at alex.michael.keith@gmail.com
 
 
 ## 🚀 About Me
