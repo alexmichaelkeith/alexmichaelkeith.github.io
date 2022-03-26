@@ -9,10 +9,6 @@ export default function topbar({menuOpen, setMenuOpen}) {
         <div className="left">
           <a href="#intro" className="logo">Alex Keith</a>
             <div className="itemContainer">
-              <Person className="icon"/>
-              <span>+1 (513)-802-8383</span>
-            </div>
-            <div className="itemContainer">
               <Mail className="icon"/>
               <span>alex.michael.keith@gmail.com</span>
             </div>
