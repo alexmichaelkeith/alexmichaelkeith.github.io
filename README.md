@@ -46,13 +46,13 @@ Go to the project directory
 
 Install dependencies
 
-```bash
+```javascript
   npm install
 ```
 
 Start the server
 
-```bash
+```javascript
   npm run start
 ```
 
@@ -61,7 +61,7 @@ Start the server
 
 To deploy this project run
 
-```bash
+```javascript
   npm run deploy
 ```
 
