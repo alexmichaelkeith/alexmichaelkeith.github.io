@@ -30,12 +30,10 @@
               display: flex;
               align-items: center;
               margin-left: 30px;
-
-              a {
-                color: black;
+              a{
               }
               a:hover {
-                 color: #00F
+                 color: #00F;
               }
 
               .icon{
@@ -68,14 +66,14 @@
       }
     }
     
- &.active{
-     background-color: $mainColor;
-     color: white;
-
-     a {
+    &.active{
+        background-color: $mainColor;
         color: white;
-      }
-      a:hover {
+
+        a{
+            color: white;
+        }
+        a:hover {
          color: blue;
       }
 

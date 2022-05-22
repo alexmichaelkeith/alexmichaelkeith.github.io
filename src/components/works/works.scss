@@ -6,11 +6,6 @@
     flex-direction: column;
     justify-content: center;
 
-
-
-    h1{
-    }
-
     .carousel {
         display: flex;
         text-align: center;
@@ -19,6 +14,7 @@
         background-color: lightblue;
         align-items: center;
         border-radius: 25%;
+
         
         .item{
             
@@ -28,6 +24,11 @@
             }
 
             .description{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                margin-left: 25%;
+                margin-right: 25%;
             }
         }
     }

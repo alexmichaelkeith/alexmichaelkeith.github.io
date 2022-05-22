@@ -7,8 +7,7 @@ import Portfolio from "./portfolio-icon.svg";
 export default function Works() {
  
   return (
-      <div className="works">
-        <h1>Portfolio</h1>
+      <div className="works" id="works">
       <Carousel className="carousel" variant="dark">
 
       <Carousel.Item className="item">
@@ -23,10 +22,21 @@ export default function Works() {
           width="35%"
         />
         <div className="description">
-          <h2>Section Head</h2>
-          <p>Description</p>
-          <h2>Section Head</h2>
-          <p>Description</p>
+          <p>A fullstack C++ application to manage emulators and roms. Automatically scrapes and manages metadata as well as displaying an interactive menu to organize and launch roms. Active builds maintained for Windows and Linux. </p>
+          <h4>Features</h4>
+          <ul>
+            <li>Intelligent ROM scanning</li>
+            <li>One time emulator configuration</li>
+            <li>IGDB Metadata scraping</li>
+            <li>Cross platform</li>
+          </ul>
+          <ul>
+            <li>Intelligent ROM scanning</li>
+            <li>One time emulator configuration</li>
+            <li>IGDB Metadata scraping</li>
+            <li>Cross platform</li>
+          </ul>
+          
         </div>
       </Carousel.Item>
 
@@ -38,25 +48,6 @@ export default function Works() {
           className="image"
           src={OpenCuisine}
           alt="First slide"
-        />
-        <div className="description">
-          <h2>Section Head</h2>
-          <p>Description</p>
-          <h2>Section Head</h2>
-          <p>Description</p>
-        </div>
-      </Carousel.Item>
-
-      <Carousel.Item className="item">
-      <div className="title">
-          <h1>Mastermind</h1>
-        </div>
-        <img
-          className="image"
-          src={Freighter}
-          alt="Mastermind"
-          height="35%"
-          width="35%"
         />
         <div className="description">
           <h2>Section Head</h2>
