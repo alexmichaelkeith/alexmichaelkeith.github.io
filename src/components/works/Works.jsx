@@ -23,20 +23,23 @@ export default function Works() {
         />
         <div className="description">
           <p>A fullstack C++ application to manage emulators and roms. Automatically scrapes and manages metadata as well as displaying an interactive menu to organize and launch roms. Active builds maintained for Windows and Linux. </p>
-          <h4>Features</h4>
-          <ul>
-            <li>Intelligent ROM scanning</li>
-            <li>One time emulator configuration</li>
-            <li>IGDB Metadata scraping</li>
-            <li>Cross platform</li>
-          </ul>
-          <ul>
-            <li>Intelligent ROM scanning</li>
-            <li>One time emulator configuration</li>
-            <li>IGDB Metadata scraping</li>
-            <li>Cross platform</li>
-          </ul>
-          
+          <div className="features">
+            <h4>Features</h4>
+            <ul>
+              <li>Intelligent ROM scanning</li>
+              <li>One time emulator configuration</li>
+              <li>IGDB Metadata scraping</li>
+              <li>Cross platform</li>
+            </ul>
+          </div>
+          <div className="roadmap">
+            <ul>
+              <li>Intelligent ROM scanning</li>
+              <li>One time emulator configuration</li>
+              <li>IGDB Metadata scraping</li>
+              <li>Cross platform</li>
+            </ul>
+          </div>
         </div>
       </Carousel.Item>
 
