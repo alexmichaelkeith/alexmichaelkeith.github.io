@@ -18,31 +18,29 @@
         
         .item{
             
-
             .title{
-                padding-top: 100px;
             }
-
             .description{
-                text-align: center;
-                align-items: center;
-                justify-content: center;
                 margin-left: 25%;
                 margin-right: 25%;
+            }
+            .test{
                 display: flex;
-
                 flex-direction: row;
+                justify-content: center;
 
 
+                
+
+
+                .stack{
+                    
+                }
 
                 .features{
-                    
-                }
-
-                .roadmap{
-                    
 
                 }
+                
             }
         }
     }
