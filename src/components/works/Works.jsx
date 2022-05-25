@@ -22,63 +22,52 @@ export default function Works() {
           width="35%"
         />
         <div className="description">
-          <p>A fullstack C++ application to manage emulators and roms. Automatically scrapes and manages metadata as well as displaying an interactive menu to organize and launch roms. Active builds maintained for Windows and Linux. </p>
+          <p><br/>A fullstack C++ application to manage emulators and roms. Automatically scrapes and manages metadata as well as displaying an interactive menu to organize and launch roms. Active builds maintained for Windows and Linux. </p>
         </div>
-          <div className="test">
-          <div className="stack">
-            <h4>Tech Stack</h4>
-            <ul>
-              <p>C++</p>
-              <p>QT</p>
-              <p>Python</p>
-            </ul>
-          </div>
-          <div className="features">
-            <h4>Features</h4>
-            <ul>
-              <p>Intelligent ROM scanning</p>
-              <p>One time emulator configuration</p>
-              <p>IGDB Metadata scraping</p>
-              <p>Cross platform</p>
-            </ul>
-            </div>
+          <div className="technologies">
+            <h4>Technologies: </h4>
+            <p>C++, QT, Python, Linux</p>
           </div>
       </Carousel.Item>
 
       <Carousel.Item className="item">
       <div className="title">
-          <h1>OpenCuisine</h1>
+          <h1>Open Cuisine</h1>
         </div>
         <img
           className="image"
           src={OpenCuisine}
-          alt="First slide"
-        />
-        <div className="description">
-          <h2>Section Head</h2>
-          <p>Description</p>
-          <h2>Section Head</h2>
-          <p>Description</p>
-        </div>
-      </Carousel.Item>
-
-      <Carousel.Item className="item">
-      <div className="title">
-          <h1>Portfolio</h1>
-        </div>
-        <img
-          className="image"
-          src={Portfolio}
-          alt="Portfolio"
+          alt="OpenCuisine"
           height="15%"
           width="15%"
         />
         <div className="description">
-          <h2>Section Head</h2>
-          <p>Description</p>
-          <h2>Section Head</h2>
-          <p>Description</p>
+          <p>A docker-compose tech stack that features a Python flask web application that allows for CRUD functionalities within a recipe database MySQL server.</p>
         </div>
+          <div className="technologies">
+            <h4>Technologies: </h4>
+            <p>Python, MySQL, Flask, HTML, Docker</p>
+          </div>
+      </Carousel.Item>
+
+      <Carousel.Item className="item">
+      <div className="title">
+          <h1>Portfolio Website</h1>
+        </div>
+        <img
+          className="image"
+          src={Portfolio}
+          alt="Portfolio Website"
+          height="15%"
+          width="15%"
+        />
+        <div className="description">
+          <p>A personal portfolio showcasing myself and my knowledge, featuring interactive demonstrations of my personal projects using the source code hosted within a dynamic React website hosted with GitHub Pages.</p>
+        </div>
+          <div className="technologies">
+            <h4>Technologies: </h4>
+            <p>JavaScript, React, HTML, Sass</p>
+          </div>
       </Carousel.Item>
       
     </Carousel>

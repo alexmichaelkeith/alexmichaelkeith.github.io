@@ -24,24 +24,22 @@
                 margin-left: 25%;
                 margin-right: 25%;
             }
-            .test{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
+                
 
 
                 
 
 
-                .stack{
-                    
+                .technologies{
+                    h4{
+                        display: inline;
+                    }
+                    p{
+                        display: inline;
+                        font-size: 20px;
+                    }
                 }
 
-                .features{
-
-                }
-                
-            }
         }
     }
 }
