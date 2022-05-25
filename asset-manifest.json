@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e3f1618.css",
-    "main.js": "/static/js/main.0d529c64.js",
+    "main.css": "/static/css/main.320ae95c.css",
+    "main.js": "/static/js/main.c29bc79c.js",
     "static/media/Freighter.png": "/static/media/Freighter.62fc99bdce83d64665b6.png",
     "static/media/portfolio-icon.svg": "/static/media/portfolio-icon.34156c7d1a1f1407959b5435b78e31dd.svg",
     "static/media/OpenCuisine.svg": "/static/media/OpenCuisine.ed2d2886f82f76c5e3a13601d37bb544.svg",
     "index.html": "/index.html",
-    "main.2e3f1618.css.map": "/static/css/main.2e3f1618.css.map",
-    "main.0d529c64.js.map": "/static/js/main.0d529c64.js.map"
+    "main.320ae95c.css.map": "/static/css/main.320ae95c.css.map",
+    "main.c29bc79c.js.map": "/static/js/main.c29bc79c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e3f1618.css",
-    "static/js/main.0d529c64.js"
+    "static/css/main.320ae95c.css",
+    "static/js/main.c29bc79c.js"
   ]
 }
