@@ -37,28 +37,5 @@
 
         }
     }
-    .downArrow{
-        position: relative;
-        text-align: right;
-        align-items: right;
-        display: flex;
-        justify-content: right;
-        left: 21%;
-        top:60px;
-    a {
 
-
-        img {
-          width: 30px;
-          animation: arrowBlink 2s infinite;
-          
-        }
-  
-        @keyframes arrowBlink {
-          100% {
-            opacity: 0;
-          }
-        }
-      }
-    }
 }

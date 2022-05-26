@@ -7,7 +7,7 @@ export default function Works() {
         <Carousel className="carousel" variant="dark">
           <Carousel.Item className="item">
           <div className="title">
-            <h1>Emulator Freighter</h1>
+            <h2>Emulator Freighter</h2>
           </div>
           <img
             className="image"
@@ -70,11 +70,6 @@ export default function Works() {
             </div>
         </Carousel.Item>
     </Carousel>
-    <div className="downArrow">
-      <a href="#contact">
-        <img src="assets/down.png" alt="arrow-down" />
-      </a>
-    </div>
   </div>
   );
 }
