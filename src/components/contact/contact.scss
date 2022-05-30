@@ -7,7 +7,6 @@
   @include mobile {
     flex-direction: column;
   }
-
   .left {
     display: flex;
     flex-direction: column;
@@ -15,8 +14,6 @@
     overflow: hidden;
     align-items: center;
     justify-content: center;
-
-
     img {
       height: 100%;
     }
@@ -61,7 +58,6 @@
           height: 100px;
         }
       }
-
       button {
         width: 150px;
         height: 30px;
@@ -76,7 +72,6 @@
           outline: none;
         }
       }
-
       span {
         color: green;
       }

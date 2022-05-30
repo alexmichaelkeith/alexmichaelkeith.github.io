@@ -17,9 +17,7 @@
     &.active{
         right: 0;
         overflow: hidden;
-
     }
-
     ul{
         margin: 0;
         padding: 0;
@@ -28,7 +26,6 @@
         font-weight: 300;
         color: white;
         width: 60%;
-
         li{
             margin-bottom: 25px;
             a{
@@ -39,7 +36,6 @@
             &:hover {
                 font-weight: 500;
             }
-
             ul{
                 li{
                     font-size: 15px;

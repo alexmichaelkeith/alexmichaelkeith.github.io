@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     .carousel {
         display: flex;
         text-align: center;
@@ -14,28 +13,27 @@
         background-color: lightblue;
         align-items: center;
         border-radius: 25%;
-
-        
         .item{
-            
             .title{
+                h1{
+                    a{
+                        color: black;
+                    }
+                }
             }
             .description{
                 margin-left: 25%;
                 margin-right: 25%;
             }
-                
-                .technologies{
-                    h4{
-                        display: inline;
-                    }
-                    p{
-                        display: inline;
-                        font-size: 20px;
-                    }
+            .technologies{
+                h4{
+                    display: inline;
                 }
-
+                p{
+                    display: inline;
+                    font-size: 20px;
+                }
+            }
         }
     }
-
 }

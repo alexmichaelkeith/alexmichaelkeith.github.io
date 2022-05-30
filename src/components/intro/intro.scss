@@ -3,12 +3,9 @@
 .intro {
   background-color: white;
   display: flex;
-
-
   .left {
     flex: 0.5;
     overflow: hidden;
-
     .imgContainer {
       width: 700px;
       height: 700px;
@@ -18,11 +15,9 @@
       align-items: flex-end;
       justify-content: center;
       float: left;
-
-
       img {
-        height: 90%;
-
+        height: 700px;
+        width: 525px;
       }
     }
   }
@@ -37,8 +32,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-
-
       h1 {
         font-size: 60px;
         margin: 10px 0;
@@ -48,14 +41,10 @@
       }
       h3 {
         font-size: 30px;
-
-
         span {
           font-size: inherit;
           color: crimson;
         }
-
-
         .ityped-cursor {
           animation: blink 1s infinite;
         }
@@ -66,19 +55,17 @@
             100%{
                 opacity: 0;
             }
+          }
         }
       }
-    }
     a {
       position: absolute;
       bottom: 10px;
       left: 40%;
-
       img {
         width: 30px;
         animation: arrowBlink 2s infinite;
       }
-
       @keyframes arrowBlink {
         100% {
           opacity: 0;

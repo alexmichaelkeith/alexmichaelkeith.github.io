@@ -1,23 +1,15 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import "./contact.scss";
-
 export default function Contact() {
-
   const {message,setMessage} = useState(false)
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true)
-
   };
-
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [body, setBody] = useState('');
-
-
-
   const submit = () => {
     if (name && email && body) {
         const serviceId = process.env.REACT_APP_EmailJS_Service_ID;
@@ -28,11 +20,9 @@ export default function Contact() {
             email,
             body
         };
-
         emailjs.send(serviceId, templateId, templateParams, userId)
             .then(response => console.log(response))
             .then(error => console.log(error));
-
         setName('');
         setEmail('');
         setBody('');
@@ -42,15 +32,10 @@ export default function Contact() {
         alert('Please fill out all fields.');
     }
   }
-
-
   return (
     <div className="contact" id="contact">
       <div className="left">
-        
       <img src="assets/shake.svg" alt="contact" />
-
-
       </div>
       <div className="right">
         <h2>Contact Me</h2>

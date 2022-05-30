@@ -7,7 +7,9 @@ export default function Works() {
         <Carousel className="carousel" variant="dark">
           <Carousel.Item className="item">
           <div className="title">
-            <h2>Emulator Freighter</h2>
+            <h1>
+              <a href="https://github.com/alexmichaelkeith/emulatorfreighter"style={{ textDecoration: 'none' }}>Emulator Freighter</a>
+            </h1>
           </div>
           <img
             className="image"
@@ -29,7 +31,9 @@ export default function Works() {
           </Carousel.Item>
           <Carousel.Item className="item">
           <div className="title">
-            <h1>Open Cuisine</h1>
+            <h1>
+              <a href="https://github.com/alexmichaelkeith/OpenCuisine"style={{ textDecoration: 'none' }}>Open Cuisine</a>
+            </h1>
           </div>
           <img
             className="image"
@@ -49,8 +53,10 @@ export default function Works() {
         </Carousel.Item>
 
         <Carousel.Item className="item">
-        <div className="title">
-            <h1>Portfolio Website</h1>
+          <div className="title">
+            <h1>
+              <a href="https://github.com/alexmichaelkeith/alexmichaelkeith.github.io"style={{ textDecoration: 'none' }}>Personal Portfolio</a>
+            </h1>
           </div>
           <img
             className="image"

@@ -2,25 +2,21 @@ import React from 'react'
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-
 export default function Intro() {
-
   const textRef = useRef();
-
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Fullstack Developer", "Software Development Engineer", "Frontend Designer", "Data Scientist"],
+      strings: ["Fullstack Developer", "Software Development Engineer", "UI/UX Developer", "Data Scientist"],
     });
   }, []);
-
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/me.png" alt="" />
+          <img src="assets/AlexKeith.png" alt="Alex Keith" />
         </div>
       </div>
       <div className="right">
